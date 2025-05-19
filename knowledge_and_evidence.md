@@ -74,15 +74,25 @@ python3 main.py
    | built-in composite type | _          |  _             |
    | user-defined type       | _          |  _             |
 
-2. Fill in (`_`) the following table based on the code in `smiley.py`:
+**Answer: **
+   | Type                    | name          | value                       |
+   | ----------------------- | ------------- | --------------------------- |
+   | built-in primitive type | "happy"       | "True"                      |
+   | built-in composite type | "emotions"    | ["happy", "sad", "angry"]   |
+   | user-defined type       | "smiley_face" | Smiley("happy")           |
+
+
+3. Fill in (`_`) the following table based on the code in `smiley.py`:
+
+**Answer:**
 
    | Object                   | Type                    |
    | ------------             | ----------------------- |
-   | self.pixels              | _                       |
-   | A member of self.pixels  | _                       |
-   | self                     | _                       |
+   | self.pixels              | list                    |
+   | A member of self.pixels  | tuple                   |
+   | self                     | Smiley                  |
 
-3. Examine the code for `smiley.py`, `sad.py`, and `happy.py`. Give an example of each of the following control structures using an example from **each** of these files. Include the first line and the line range:
+4. Examine the code for `smiley.py`, `sad.py`, and `happy.py`. Give an example of each of the following control structures using an example from **each** of these files. Include the first line and the line range:
 
    | Control Flow | File       | First line  | Line range  |
    | ------------ | ---------- | ----------- | ----------- |
@@ -90,7 +100,7 @@ python3 main.py
    |  selection   | _          | _           | _           |
    |  iteration   | _          | _           | _           |
 
-4. Though everything in Python is an object, it is sometimes said to have four "primitive" types. Examining the three files `smiley.py`, `sad.py`, and `happy.py`, identify which of the following types are used in any of these files, and give an example of each (use an example from the code, if applicable, otherwise provide an example of your own):
+5. Though everything in Python is an object, it is sometimes said to have four "primitive" types. Examining the three files `smiley.py`, `sad.py`, and `happy.py`, identify which of the following types are used in any of these files, and give an example of each (use an example from the code, if applicable, otherwise provide an example of your own):
 
    | Type                    | Used? | Example |
    | ----------------------- | ----- | --------|
@@ -99,7 +109,7 @@ python3 main.py
    | str                     | _     | _          |
    | bool                    | _     | _          |
 
-5. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
+6. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
 
 > Your answer here
 >
